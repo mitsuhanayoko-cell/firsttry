@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="ja">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>社内自己紹介一覧</title>
+    <style>
+      :root {
+        color-scheme: light;
+        font-family: "Hiragino Kaku Gothic ProN", "Yu Gothic", "Meiryo", sans-serif;
+        background-color: #f5f7fb;
+        color: #1f2937;
+      }
+      body {
+        margin: 0;
+        padding: 32px 20px 48px;
+      }
+      header {
+        max-width: 960px;
+        margin: 0 auto 24px;
+      }
+      h1 {
+        font-size: 28px;
+        margin-bottom: 8px;
+      }
+      p.lead {
+        margin: 0;
+        color: #4b5563;
+      }
+      .cards {
+        max-width: 960px;
+        margin: 0 auto;
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+        gap: 16px;
+      }
+      .card {
+        background: #ffffff;
+        border-radius: 16px;
+        padding: 20px;
+        box-shadow: 0 12px 24px rgba(15, 23, 42, 0.08);
+      }
+      .card h2 {
+        margin: 0 0 4px;
+        font-size: 20px;
+      }
+      .meta {
+        font-size: 14px;
+        color: #6b7280;
+        margin-bottom: 12px;
+      }
+      ul {
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        display: grid;
+        gap: 8px;
+        font-size: 14px;
+      }
+      ul li strong {
+        display: inline-block;
+        min-width: 78px;
+        color: #111827;
+      }
+      footer {
+        max-width: 960px;
+        margin: 32px auto 0;
+        font-size: 12px;
+        color: #9ca3af;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>社内自己紹介一覧</h1>
+      <p class="lead">
+        部署横断でメンバーの人となりがすぐに分かる、社内向けの自己紹介ページです。
+      </p>
+    </header>
+
+    <main class="cards">
+      <section class="card">
+        <h2>佐藤 花</h2>
+        <div class="meta">マーケティング部 / 3年目</div>
+        <ul>
+          <li><strong>担当:</strong> ブランド施策、SNS運用</li>
+          <li><strong>得意:</strong> コンテンツ企画、コピーライティング</li>
+          <li><strong>趣味:</strong> カフェ巡り、写真</li>
+          <li><strong>ひとこと:</strong> 相談は気軽にDMください！</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>鈴木 健</h2>
+        <div class="meta">プロダクト開発部 / 5年目</div>
+        <ul>
+          <li><strong>担当:</strong> フロントエンド開発</li>
+          <li><strong>得意:</strong> UI設計、アクセシビリティ</li>
+          <li><strong>趣味:</strong> ランニング、ボードゲーム</li>
+          <li><strong>ひとこと:</strong> UI改善の相談いつでも歓迎です。</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>田中 美咲</h2>
+        <div class="meta">カスタマーサクセス部 / 2年目</div>
+        <ul>
+          <li><strong>担当:</strong> オンボーディング支援</li>
+          <li><strong>得意:</strong> 課題整理、ヒアリング</li>
+          <li><strong>趣味:</strong> 旅行、読書</li>
+          <li><strong>ひとこと:</strong> お客様の声はぜひ共有してください。</li>
+        </ul>
+      </section>
+
+      <section class="card">
+        <h2>山本 大輔</h2>
+        <div class="meta">経営企画室 / 4年目</div>
+        <ul>
+          <li><strong>担当:</strong> 事業計画、予実管理</li>
+          <li><strong>得意:</strong> データ分析、レポーティング</li>
+          <li><strong>趣味:</strong> サウナ、料理</li>
+          <li><strong>ひとこと:</strong> 数字の相談はお気軽にどうぞ。</li>
+        </ul>
+      </section>
+    </main>
+
+    <footer>
+      最終更新: 2024/04/01 &nbsp;|&nbsp; 追加/修正は総務チームまで
+    </footer>
+  </body>
+</html>
